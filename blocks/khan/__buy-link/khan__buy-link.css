@@ -3,4 +3,10 @@
   font-size: 30px;
   text-decoration: none;
   margin-top: 0px;
+  padding-top: 5px;
+  color:   #000000; ;
+}
+.khan__buy-link:hover {
+  opacity: 0.4;
+  transition: 2s linear;
 }

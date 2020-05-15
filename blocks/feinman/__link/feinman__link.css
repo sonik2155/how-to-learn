@@ -7,3 +7,7 @@
   text-decoration: none;
   color: #000000;
 }
+.feinman__link:hover {
+opacity: 0.4;
+transition: 2s linear;
+}

@@ -8,8 +8,5 @@
 @import url(./__quote-author-subline/khan__quote-author-subline.css);
 @import url(./__title/khan__title.css);
 .khan {
-  width: 80%;
-  margin: auto;
-  padding-right: 50px;
-  box-sizing: border-box;
+  background-color: #f2f2f2;
 }

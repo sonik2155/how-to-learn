@@ -5,3 +5,7 @@
   margin: 20px 16px 0px 0px;
   text-decoration: none;
 }
+.footer__column-link:hover {
+  opacity: 0.4;
+  transition: 2s linear;
+}

@@ -1,1 +1,6 @@
-.khan__container {}
+.khan__container {
+  padding-top: 105px;
+  width: 80%;
+  box-sizing: border-box;
+  margin: auto;
+}
