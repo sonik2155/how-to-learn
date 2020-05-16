@@ -9,3 +9,6 @@
   opacity: 0.4;
   transition: 2s linear;
 }
+.footer__column-links {
+  list-style: none;
+}
