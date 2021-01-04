@@ -1,0 +1,41 @@
+{
+  "name": "how-to-learn",
+  "version": "1.0.0",
+  "description": "1. Научиться учиться\r 2. Проект студента Яндекс Практикума Яненко Михаила. Задача проекта, научиться созавать одностроничный сайт с применение таких технологий как: flexbox, БЭМ, создание файловой структуры по БЭМ, применение анимационных эффектов",
+  "main": "index.html",
+  "scripts": {
+    "build": "rm -rf dist && webpack",
+    "dev": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonik2155/how-to-learn.git"
+  },
+  "keywords": [],
+  "author": "Yanenko Mikhail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonik2155/how-to-learn/issues"
+  },
+  "homepage": "https://github.com/sonik2155/how-to-learn#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "autoprefixer": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "gh-pages": "^3.1.0",
+    "html-webpack-plugin": "^4.5.1",
+    "mini-css-extract-plugin": "^1.3.3",
+    "postcss-loader": "^4.1.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "dependencies": {
+    "core-js": "^3.8.2"
+  }
+}
